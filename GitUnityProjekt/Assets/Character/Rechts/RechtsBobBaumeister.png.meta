@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: 51dceec52cb456f41b9f71aeed89dc4f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RechtsBobBaumeister_0
+    21300002: RechtsBobBaumeister_1
+    21300004: RechtsBobBaumeister_2
+    21300006: RechtsBobBaumeister_3
+    21300008: RechtsBobBaumeister_4
+    21300010: RechtsBobBaumeister_5
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RechtsBobBaumeister_0
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 605.00006
+        width: 192.11023
+        height: 185
+      alignment: 9
+      pivot: {x: 0.48930243, y: 0.49999967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b542ecc4f594aad449d5007b71fff8eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RechtsBobBaumeister_1
+      rect:
+        serializedVersion: 2
+        x: 1129.7054
+        y: 499.27908
+        width: 250.73633
+        height: 197.73636
+      alignment: 9
+      pivot: {x: 0.4977123, y: 0.49419802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c284a022b8959744a1b3988eaa1c1af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RechtsBobBaumeister_2
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 550
+        width: 153
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3381083529e1d4f48b5f6fad44eb6f7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RechtsBobBaumeister_3
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 136.98454
+        width: 153.29456
+        height: 117.31
+      alignment: 9
+      pivot: {x: 0.49251586, y: 0.5073349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cf33c306d8bf548870748d28c2da2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RechtsBobBaumeister_4
+      rect:
+        serializedVersion: 2
+        x: 1012.00006
+        y: 265
+        width: 252.16266
+        height: 194
+      alignment: 9
+      pivot: {x: 0.48778018, y: 0.49742267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fe028d240c3104cb7417a4d2c80d20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RechtsBobBaumeister_5
+      rect:
+        serializedVersion: 2
+        x: 1457.5582
+        y: 207
+        width: 204.44177
+        height: 167.14725
+      alignment: 9
+      pivot: {x: 0.5133088, y: 0.51152503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328f2e578e3d60746a3d064dc3538ec9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 34f82cd7174fb8e4e841a5ab406f452c
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 637220398786488663
+  assetBundleName: 
+  assetBundleVariant: 
