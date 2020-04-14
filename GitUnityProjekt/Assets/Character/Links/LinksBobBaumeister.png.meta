@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: cc6819fc5b3f4e4459cd6ced5a14ec02
+guid: cf6ba0573e966f44fa05b0037f00b82b
 TextureImporter:
   fileIDToRecycleName:
-    21300000: HintenBobBaumeister_0
-    21300002: HintenBobBaumeister_2
-    21300004: HintenBobBaumeister_3
-    21300006: HintenBobBaumeister_5
-    21300008: HintenBobBaumeister_7
-    21300010: HintenBobBaumeister_9
+    21300000: LinksBobBaumeister_0
+    21300002: LinksBobBaumeister_1
+    21300004: LinksBobBaumeister_2
+    21300006: LinksBobBaumeister_3
+    21300008: LinksBobBaumeister_4
+    21300010: LinksBobBaumeister_6
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -90,121 +90,121 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HintenBobBaumeister_0
+      name: LinksBobBaumeister_0
       rect:
         serializedVersion: 2
-        x: 1379
-        y: 788.00006
-        width: 152.5
-        height: 171.24994
+        x: 205.00002
+        y: 526
+        width: 161.87498
+        height: 191.875
       alignment: 9
-      pivot: {x: 0.49835986, y: 0.49051076}
+      pivot: {x: 0.49420866, y: 0.495114}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87b002a4bd5761a49a706ec73c7e86d5
+      spriteID: 1e4958ade52b33c4396d6981bda58332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HintenBobBaumeister_2
+      name: LinksBobBaumeister_1
       rect:
         serializedVersion: 2
-        x: 65.50957
-        y: 677
-        width: 110.894226
-        height: 176.61536
+        x: 536.0598
+        y: 523.2909
+        width: 252.69019
+        height: 203.0841
       alignment: 9
-      pivot: {x: 0.513917, y: 0.5010889}
+      pivot: {x: 0.49444, y: 0.50574666}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da1afb8f4149f3e4db1c9a33afa614f3
+      spriteID: e029657afcba83e44a3e8144a5f3a35a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HintenBobBaumeister_3
+      name: LinksBobBaumeister_2
       rect:
         serializedVersion: 2
-        x: 236.77888
-        y: 681.00006
-        width: 107.596115
-        height: 174.02875
+        x: 936.9404
+        y: 580.00006
+        width: 192.40479
+        height: 189.75543
       alignment: 9
-      pivot: {x: 0.48999062, y: 0.5027905}
+      pivot: {x: 0.4992577, y: 0.50064445}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa06a4ab01b28b24dae16c668248e919
+      spriteID: 84222f74bfcccd14ca5e99726380f084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HintenBobBaumeister_5
+      name: LinksBobBaumeister_3
       rect:
         serializedVersion: 2
-        x: 698
-        y: 361.00003
-        width: 171.25
-        height: 188.12497
+        x: 311.74487
+        y: 153.37244
+        width: 150.07404
+        height: 193.38272
       alignment: 9
-      pivot: {x: 0.49343064, y: 0.49435207}
+      pivot: {x: 0.49478978, y: 0.49708462}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cc219e7c0cad93459425d7c2a833e84
+      spriteID: 505a468f78b3db947a93bf65bbc820ce
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HintenBobBaumeister_7
+      name: LinksBobBaumeister_4
       rect:
         serializedVersion: 2
-        x: 1310.1538
-        y: 169.84622
-        width: 169.82678
-        height: 218.02887
+        x: 721.76105
+        y: 303.87503
+        width: 251.83417
+        height: 202.30981
       alignment: 9
-      pivot: {x: 0.511381, y: 0.47770622}
+      pivot: {x: 0.5052492, y: 0.48502314}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97e3382bfb64efd4683a9832c57cf7b6
+      spriteID: 4c2282ec34e79004c8e2a436c77571a3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HintenBobBaumeister_9
+      name: LinksBobBaumeister_6
       rect:
         serializedVersion: 2
-        x: 1045.623
-        y: 177.89867
-        width: 172.27368
-        height: 210.18114
+        x: 1173.875
+        y: 117.000015
+        width: 160
+        height: 180.62502
       alignment: 9
-      pivot: {x: 0.52461267, y: 0.49053565}
+      pivot: {x: 0.48828125, y: 0.4955017}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c718e137b2c35d24b9638cf91d62ec26
+      spriteID: 7a6de04e341e3414693b995a0fddf2a6
       vertices: []
       indices: 
       edges: []
@@ -212,7 +212,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c4228421ca18ae64ea281d571dcf72ec
+    spriteID: 52705923a46015945a6b0ec2651c4e91
     vertices: []
     indices: 
     edges: []
@@ -220,6 +220,6 @@ TextureImporter:
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
-  userData: 637221326447648399
+  userData: 637221445380255060
   assetBundleName: 
   assetBundleVariant: 
