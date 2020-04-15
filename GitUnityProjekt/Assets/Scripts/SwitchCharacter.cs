@@ -6,7 +6,6 @@ public class SwitchCharacter : MonoBehaviour //mache extra stehen charakter -> i
 {
     public GameObject vorn, hinten, rechts, links; //wie mache ich von vorne stehen, von hinten stehen?
     int whichAvatarIsOn = 1;
-    int idlevorn, idlehinten;
 
     void Start()
     {
@@ -53,8 +52,7 @@ public class SwitchCharacter : MonoBehaviour //mache extra stehen charakter -> i
         switch (whichAvatarIsOn)
         {
             case 1: //nach rechts laufen
-                idlevorn = 1;
-                idlehinten = 0;
+
                 vorn.gameObject.SetActive(false);
                 hinten.gameObject.SetActive(false);
                 rechts.gameObject.SetActive(true);
@@ -62,8 +60,6 @@ public class SwitchCharacter : MonoBehaviour //mache extra stehen charakter -> i
                 break;
 
             case 2: //nach links laufen
-                idlevorn = 1;
-                idlehinten = 0;
                 vorn.gameObject.SetActive(false);
                 hinten.gameObject.SetActive(false);
                 rechts.gameObject.SetActive(false);
@@ -71,8 +67,6 @@ public class SwitchCharacter : MonoBehaviour //mache extra stehen charakter -> i
                 break;
 
             case 3: //nach oben laufen
-                idlevorn = 0;
-                idlehinten = 1;
                 vorn.gameObject.SetActive(false);
                 hinten.gameObject.SetActive(true);
                 rechts.gameObject.SetActive(false);
@@ -80,36 +74,11 @@ public class SwitchCharacter : MonoBehaviour //mache extra stehen charakter -> i
                 break;
 
             case 4: //nach unten laufen
-                idlevorn = 1;
-                idlehinten = 0;
                 vorn.gameObject.SetActive(true);
                 hinten.gameObject.SetActive(false);
                 rechts.gameObject.SetActive(false);
                 links.gameObject.SetActive(false);
                 break;
-
-            //case 5: //stehen
-            //    if (idlevorn == 1)
-            //    {
-            //        stehenhinten.gameObject.SetActive(false);
-            //        stehenvorn.gameObject.SetActive(true);
-            //        vorn.gameObject.SetActive(false);
-            //        hinten.gameObject.SetActive(false);
-            //        rechts.gameObject.SetActive(false);
-            //        links.gameObject.SetActive(false);
-            //    }
-            //    else if (idlehinten == 1)
-            //    {
-            //        stehenhinten.gameObject.SetActive(true);
-            //        stehenvorn.gameObject.SetActive(false);
-            //        vorn.gameObject.SetActive(false);
-            //        hinten.gameObject.SetActive(false);
-            //        rechts.gameObject.SetActive(false);
-            //        links.gameObject.SetActive(false);
-            //    }
-            //    break;
-
-
         }
     }
 }

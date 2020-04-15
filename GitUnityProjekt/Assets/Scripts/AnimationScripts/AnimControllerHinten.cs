@@ -20,7 +20,7 @@ public class AnimControllerHinten : MonoBehaviour
         }
         if ((Input.GetAxis("Vertical") == 0))
         {
-            animhinten.Play("Stayhinten"); //Animationsnamen verkehrt herum beschriftet
+            animhinten.Play("Stayhinten"); 
         }
     }
 }
