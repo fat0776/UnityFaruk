@@ -96,6 +96,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animlinks: {fileID: 0}
+--- !u!61 &78203865
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2794691710465795274}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.064796925, y: -0.16998482}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2915545, y: 1.404726}
+  m_EdgeRadius: 0
 --- !u!1 &4399204229365155757
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,6 +240,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animrechts: {fileID: 0}
+--- !u!61 &1152289057
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7250750157721943117}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.3927536, y: -0.7001761}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.846138, y: 0.50623393}
+  m_EdgeRadius: 0
 --- !u!1001 &83002298254208927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -577,17 +629,17 @@ PrefabInstance:
     - target: {fileID: 5704019117124423641, guid: f9bf856f5d0150e4dbcd130934fcaf51,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.3124717
+      value: -0.63508886
       objectReference: {fileID: 0}
     - target: {fileID: 5704019117124423641, guid: f9bf856f5d0150e4dbcd130934fcaf51,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9499271
+      value: 0.7724391
       objectReference: {fileID: 0}
     - target: {fileID: 5704019117124423641, guid: f9bf856f5d0150e4dbcd130934fcaf51,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -36.416
+      value: -78.853004
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5704019116019317078, guid: f9bf856f5d0150e4dbcd130934fcaf51, type: 3}
