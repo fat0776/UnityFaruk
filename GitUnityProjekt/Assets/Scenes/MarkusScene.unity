@@ -189,9 +189,105 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 1628844964}
+  - {fileID: 1213963429}
+  - {fileID: 1585170881}
+  - {fileID: 453692598}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &453692597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 453692598}
+  - component: {fileID: 453692599}
+  m_Layer: 0
+  m_Name: Snickers_Belvedere_Duplo_Ritter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &453692598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453692597}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 234474167}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &453692599
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453692597}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.24423218, y: 7.6752453}
+  - {x: -0.31806183, y: 4.0654373}
+  - {x: -3.6017177, y: 4.050598}
+  - {x: -3.7669487, y: 1.5396235}
+  - {x: -5.115633, y: 1.51977}
+  - {x: -5.1765347, y: 0.14320454}
+  - {x: -5.442786, y: -0.68613976}
+  - {x: -5.3825874, y: -1.3728786}
+  - {x: -5.5360794, y: -2.3002348}
+  - {x: -5.473794, y: -2.784825}
+  - {x: -5.5579634, y: -3.4525719}
+  - {x: -5.570556, y: -4.289665}
+  - {x: -5.0368233, y: -3.972499}
+  - {x: -3.261649, y: -3.85237}
+  - {x: -3.4150887, y: -2.9785383}
+  - {x: -3.2715862, y: -2.718172}
+  - {x: -3.3755393, y: -1.1395854}
+  - {x: -3.1859958, y: -1.0352377}
+  - {x: -3.1123455, y: 0.4750058}
+  - {x: -0.44300336, y: 0.5168564}
+  - {x: -0.38485974, y: 3.274496}
+  - {x: 3.734637, y: 3.3014317}
+  - {x: 4.085832, y: -1.8405813}
+  - {x: -0.88651025, y: -1.8708417}
+  - {x: -1.2905515, y: -1.8383783}
+  - {x: -1.1648357, y: -3.3902612}
+  - {x: 4.3900146, y: -3.2036753}
+  - {x: 4.3685713, y: -2.8227806}
+  - {x: 4.917417, y: -3.130107}
+  - {x: 6.0652494, y: -3.1606557}
+  - {x: 6.815074, y: -2.8959405}
+  - {x: 7.518222, y: -2.4473512}
+  - {x: 7.155233, y: 0.18645653}
+  - {x: 9.800367, y: 0.29861307}
+  - {x: 9.56632, y: 2.5044336}
+  - {x: 9.336571, y: 2.329215}
+  - {x: 6.9098206, y: 2.3544936}
+  - {x: 6.5528593, y: 5.0370445}
+  - {x: 6.1315947, y: 5.582859}
+  - {x: 5.6500664, y: 5.7797356}
+  - {x: 5.5847855, y: 6.361766}
+  - {x: 5.4810934, y: 7.6676292}
+  - {x: 15.49678, y: 7.6800456}
+  - {x: 16.080189, y: 4.64091}
+  - {x: 17.781528, y: 4.653212}
+  - {x: 17.100233, y: 7.7969494}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +396,162 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3150102945786130244}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1213963428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1213963429}
+  - component: {fileID: 1213963430}
+  m_Layer: 0
+  m_Name: ObererRand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1213963429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213963428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 234474167}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1213963430
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213963428}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -23.069523, y: 6.70382}
+  - {x: -19.366943, y: 6.899103}
+  - {x: -3.6630378, y: 6.919866}
+  - {x: 7.2458267, y: 7.303196}
+  - {x: 15.095221, y: 7.45186}
+  - {x: 15.760173, y: 7.61143}
+  - {x: 19.01283, y: 7.7365665}
+  - {x: 23.069525, y: 7.9328513}
+--- !u!1 &1585170880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1585170881}
+  - component: {fileID: 1585170882}
+  m_Layer: 0
+  m_Name: "Gr\xFCnerTruck_Snickers_Milka_haribo"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1585170881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585170880}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -20.156208, y: 3.5441396, z: 1.2539062}
+  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 1}
+  m_Children: []
+  m_Father: {fileID: 234474167}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1585170882
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585170880}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -4.4555855, y: -10.996513}
+  - {x: -2.9989643, y: -10.951192}
+  - {x: -1.7366581, y: -11.079357}
+  - {x: -0.6832266, y: -11.6406765}
+  - {x: 1.478817, y: -11.989851}
+  - {x: 1.2423792, y: -12.723028}
+  - {x: 5.7406826, y: -13.980053}
+  - {x: 9.795263, y: -15.021652}
+  - {x: 18.633442, y: -14.706821}
+  - {x: 19.344593, y: -14.697569}
+  - {x: 19.30544, y: -16.003042}
+  - {x: 21.143679, y: -16.240423}
+  - {x: 23.11789, y: -15.594595}
+  - {x: 24.73819, y: -16.303038}
+  - {x: 26.58434, y: -16.18583}
+  - {x: 27.190895, y: -15.954326}
+  - {x: 28.807213, y: -15.354994}
+  - {x: 29.043978, y: -14.936907}
+  - {x: 31.744946, y: -15.222499}
+  - {x: 33.937675, y: -14.47538}
+  - {x: 37.36991, y: -14.955978}
+  - {x: 39.813114, y: -14.172429}
+  - {x: 41.237526, y: -13.5553}
+  - {x: 43.27375, y: -13.716942}
+  - {x: 44.51917, y: -13.927092}
+  - {x: 44.4592, y: -12.469278}
+  - {x: 44.7956, y: -11.906538}
+  - {x: 47.620712, y: -11.704127}
+  - {x: 46.9703, y: -8.713778}
+  - {x: 47.4926, y: -8.814531}
+  - {x: 48.45008, y: -8.657694}
+  - {x: 50.902782, y: -8.34874}
+  - {x: 50.807007, y: -7.8876686}
+  - {x: 50.892277, y: -6.8382835}
+  - {x: 50.329, y: -5.589356}
+  - {x: 50.194595, y: -4.7675548}
+  - {x: 49.718044, y: -2.9594097}
+  - {x: 48.896057, y: -2.0436568}
+  - {x: 48.34054, y: -2.1475186}
+  - {x: 47.871315, y: 0.7330996}
+  - {x: 44.26287, y: 0.9418291}
+  - {x: 43.913925, y: 2.7626348}
+  - {x: 49.913353, y: 2.7460089}
+  - {x: 50.256786, y: 0.97421014}
+  - {x: 51.451355, y: 0.9658545}
+  - {x: 51.83442, y: 1.5509394}
+  - {x: 52.542904, y: -1.2109991}
+  - {x: 52.272484, y: -1.7690789}
+  - {x: 53.31887, y: -4.3679943}
+  - {x: 54.048946, y: -6.999803}
+  - {x: 54.879494, y: -10.937914}
+  - {x: 56.096092, y: -11.447371}
+  - {x: 57.35623, y: -12.675462}
+  - {x: 64.803116, y: -12.420522}
 --- !u!1 &1628844963
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,8 +599,34 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.5, y: 0}
-  - {x: 0.5, y: 0}
+  - {x: -6.839587, y: 5.56141}
+  - {x: -6.399429, y: 6.9165173}
+  - {x: -8.214457, y: 7.423314}
+  - {x: -8.281851, y: 6.838046}
+  - {x: -8.669963, y: 5.9693947}
+  - {x: -9.2945175, y: 5.2717977}
+  - {x: -9.755491, y: 3.5448318}
+  - {x: -10.596813, y: 3.491755}
+  - {x: -11.255384, y: -0.8445918}
+  - {x: -12.886538, y: -0.26479048}
+  - {x: -14.026759, y: -0.64654577}
+  - {x: -14.755164, y: -0.25152802}
+  - {x: -15.546936, y: 0.18413894}
+  - {x: -15.310526, y: 1.5173767}
+  - {x: -15.523197, y: 1.9369825}
+  - {x: -17.990034, y: 1.7477468}
+  - {x: -19.056747, y: 2.7215533}
+  - {x: -20.522335, y: 2.3827274}
+  - {x: -20.831253, y: 0.8927495}
+  - {x: -19.668823, y: -0.23797123}
+  - {x: -17.47708, y: -0.2633257}
+  - {x: -17.400494, y: -0.971543}
+  - {x: -15.571021, y: -1.94474}
+  - {x: -12.454234, y: -2.8726554}
+  - {x: -11.406619, y: -2.920267}
+  - {x: -8.248476, y: -2.810348}
+  - {x: -7.6946983, y: 3.5636616}
+  - {x: -6.845884, y: 5.6506767}
 --- !u!1001 &3150102945786130244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -394,12 +672,12 @@ PrefabInstance:
     - target: {fileID: 3446204336317070851, guid: 747040318b0f5f645a917f0d68ae3597,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.43
+      value: 2.04
       objectReference: {fileID: 0}
     - target: {fileID: 3446204336317070851, guid: 747040318b0f5f645a917f0d68ae3597,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.46
+      value: 3.27
       objectReference: {fileID: 0}
     - target: {fileID: 3446204336317070851, guid: 747040318b0f5f645a917f0d68ae3597,
         type: 3}
