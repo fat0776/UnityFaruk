@@ -501,8 +501,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1936209646}
   - component: {fileID: 1936209645}
-  - component: {fileID: 1936209644}
   - component: {fileID: 1936209643}
+  - component: {fileID: 1936209644}
   m_Layer: 0
   m_Name: Teleporter
   m_TagString: Untagged
@@ -567,10 +567,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1936209642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6121a83338e0fe34c84d3ac8bf83d030, type: 3}
+  m_Script: {fileID: 11500000, guid: d61c469d65690614e89c22d01eadc3c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 0
   levelName: FelixScene
 --- !u!61 &1936209645
 BoxCollider2D:

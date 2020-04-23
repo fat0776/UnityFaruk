@@ -202,8 +202,8 @@ GameObject:
   m_Component:
   - component: {fileID: 410171040}
   - component: {fileID: 410171039}
-  - component: {fileID: 410171038}
   - component: {fileID: 410171037}
+  - component: {fileID: 410171038}
   m_Layer: 0
   m_Name: Teleporter_Background1
   m_TagString: Untagged
@@ -268,10 +268,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 410171036}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6121a83338e0fe34c84d3ac8bf83d030, type: 3}
+  m_Script: {fileID: 11500000, guid: d61c469d65690614e89c22d01eadc3c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 1
   levelName: FelixScene1
 --- !u!61 &410171039
 BoxCollider2D:
@@ -421,6 +420,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3150102945786130244}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &820694025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820694019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27876802de7af16468b21f8a4efdda41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ready: 0
 --- !u!1 &849560140
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +552,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6121a83338e0fe34c84d3ac8bf83d030, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 2
   levelName: SceneVorlage
 --- !u!1 &1159614993
 GameObject:
