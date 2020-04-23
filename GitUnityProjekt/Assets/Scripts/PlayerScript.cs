@@ -29,12 +29,12 @@ public class PlayerScript : MonoBehaviour
 
     }
 
-    /*private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("screw"))
+        
+        if (other.gameObject.CompareTag("Screw"))
         {
             Destroy(other.gameObject);
         }
     }
-    */
 }
