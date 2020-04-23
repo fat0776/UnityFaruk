@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 7666589566624744990}
   - component: {fileID: 7666589566624744977}
   - component: {fileID: 7666589566624744976}
+  - component: {fileID: 546555113}
+  - component: {fileID: 546555114}
   m_Layer: 0
   m_Name: Screw
-  m_TagString: Untagged
+  m_TagString: Screw
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -862788077
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: baa8627223838f049bf4734d08a34f99, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -99,3 +101,50 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!68 &546555113
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666589566624744979}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.86188513, y: -0.44687676}
+  - {x: -0.8025809, y: -0.16907555}
+  - {x: 0.03704684, y: 0.28433457}
+  - {x: 0.0769983, y: 0.5411195}
+  - {x: 0.25807855, y: 0.6610652}
+  - {x: 0.38452214, y: 0.6999717}
+  - {x: 0.611498, y: 0.6502737}
+  - {x: 0.77738214, y: 0.5062253}
+  - {x: 0.9083332, y: 0.30533993}
+  - {x: 0.93918115, y: 0.15805039}
+  - {x: 0.9294237, y: -0.019232204}
+  - {x: 0.8341012, y: -0.20108221}
+  - {x: 0.57996815, y: -0.33292767}
+  - {x: 0.28007096, y: -0.25101796}
+  - {x: -0.46318936, y: -0.70346624}
+  - {x: -0.5611474, y: -0.72183335}
+  - {x: -0.72019506, y: -0.58811903}
+  - {x: -0.8792427, y: -0.45440468}
+--- !u!114 &546555114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666589566624744979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df21424156690649bf0df8212ec11c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinValue: 1
