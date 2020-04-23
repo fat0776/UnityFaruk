@@ -18,22 +18,22 @@ public class SwitchCharacter : MonoBehaviour //mache extra stehen charakter -> i
     }
     void Update()
     {
-        if (Input.GetAxis("Horizontal") > 0) //nach rechts laufen
+        if (Input.GetAxis("Horizontal") > 0 && Input.GetAxis("Vertical") == 0) //nach rechts laufen
         {
             whichAvatarIsOn = 1;
             SwitchAvatar();
         }
-        if (Input.GetAxis("Horizontal") < 0) //nach links laufen
+        if (Input.GetAxis("Horizontal") < 0 && Input.GetAxis("Vertical") == 0) //nach links laufen
         {
             whichAvatarIsOn = 2;
             SwitchAvatar();
         }
-        if (Input.GetAxis("Vertical") > 0) //nach oben laufen
+        if (Input.GetAxis("Vertical") > 0 && Input.GetAxis("Horizontal") == 0) //nach oben laufen
         {
             whichAvatarIsOn = 3;
             SwitchAvatar();
         }
-        if (Input.GetAxis("Vertical") < 0) //nach unten laufen
+        if (Input.GetAxis("Vertical") < 0 && Input.GetAxis("Horizontal") == 0) //nach unten laufen
         {
             whichAvatarIsOn = 4;
             SwitchAvatar();
