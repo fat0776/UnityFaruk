@@ -5,11 +5,15 @@ using UnityEngine;
 public class AnimTeleporterSprite : MonoBehaviour
 {
     public ScoreManager MscoreManager;
-    public Animator transport;
+    //public Animator transport;
+    public GameObject aktiv, inaktiv;
+    
     // Start is called before the first frame update
     void Start()
     {
-       transport = GetComponent<Animator>();
+       //transport = GetComponent<Animator>();
+        aktiv.gameObject.SetActive(false);
+        inaktiv.gameObject.SetActive(true);
     }
 
     // Update is called once per frame
@@ -17,7 +21,9 @@ public class AnimTeleporterSprite : MonoBehaviour
     {
         if (MscoreManager.score == 2)
         {
-            transport.Play("AnimTeleporter");
+            aktiv.gameObject.SetActive(true);
+            inaktiv.gameObject.SetActive(false);
+
         }
 
 
