@@ -668,8 +668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6121a83338e0fe34c84d3ac8bf83d030, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: SceneVorlage
   MyScoreManager: {fileID: 934208972}
+  levelName: FarukScene
 --- !u!114 &934208972 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1889219840643127093, guid: 24d7738f6dacfde48929d65a34a73c25,

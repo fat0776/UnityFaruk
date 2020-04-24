@@ -9,7 +9,7 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager Instance;
     public TextMeshProUGUI text;
     //int score; alt
-    int score;
+    public int score;
 
 
 
@@ -30,7 +30,7 @@ public class ScoreManager : MonoBehaviour
     public void ChangeScore(int coinValue)
     {
         score += coinValue;
-        text.text = "X" + score.ToString();
+        text.text = score.ToString() + "/5";
     }
 
     // Update is called once per frame
