@@ -10,13 +10,13 @@ public class Teleporter : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other)
 
     {
-        if (MyScoreManager.score ==2)
-        {
+        //if (MyScoreManager.score ==2)
+        //{
             if (other.CompareTag("Player"))
             { 
                 SceneManager.LoadScene(levelName);
             }
-        }
+       // }
 
     }
 
