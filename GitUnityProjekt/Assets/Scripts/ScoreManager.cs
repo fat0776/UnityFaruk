@@ -9,7 +9,7 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager Instance;
     public TextMeshProUGUI text;
     //int score; alt
-    public int score;
+    int score;
 
 
 
