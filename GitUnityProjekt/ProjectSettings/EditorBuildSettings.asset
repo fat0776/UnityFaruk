@@ -26,4 +26,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MarkusScene.unity
     guid: ea67d2f7e8864cf4ba3d768e9de52cad
+  - enabled: 1
+    path: Assets/Scenes/MarliesScene Corona.unity
+    guid: b2102ed019b3f674aa3385e6a2a1347e
+  - enabled: 1
+    path: Assets/Scenes/MarliesScene.unity
+    guid: 46cb27a3667790443b70ceabb1839ff6
+  - enabled: 1
+    path: Assets/Scenes/MarliesScene Obst.unity
+    guid: 2d8e92bcaef2df14b98620f0f3e8f8f1
+  - enabled: 1
+    path: Assets/Scenes/MarliesScene Suessigkeiten.unity
+    guid: 9616d4ea2620bd843a9630b67527ee60
+  - enabled: 1
+    path: Assets/Scenes/TheresaScene.unity
+    guid: 997ca5a9250a3064aaf35fb5e33e3fd2
   m_configObjects: {}
