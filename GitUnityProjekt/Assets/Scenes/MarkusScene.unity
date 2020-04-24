@@ -396,8 +396,8 @@ MonoBehaviour:
   player: {fileID: 820694019}
   timeOffset: 3
   posOffset: {x: 0, y: 0}
-  leftLimit: -2
-  rightLimit: 45
+  leftLimit: -3.5
+  rightLimit: 47.7
   bottomLimit: -12
   topLimit: 10
 --- !u!20 &519420031
@@ -490,7 +490,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -476.3, y: 166.7}
+  m_AnchoredPosition: {x: -310, y: 155}
   m_SizeDelta: {x: 512, y: 308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &639255199
@@ -1067,7 +1067,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -279, y: 176}
+  m_AnchoredPosition: {x: -112.70003, y: 164.3}
   m_SizeDelta: {x: 262.51, y: 102.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &3150102945786130244
