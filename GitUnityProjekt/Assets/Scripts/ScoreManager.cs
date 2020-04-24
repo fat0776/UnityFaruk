@@ -8,7 +8,12 @@ public class ScoreManager : MonoBehaviour
 
     public static ScoreManager Instance;
     public TextMeshProUGUI text;
-    int score;
+    //int score; alt
+    public int score;
+
+
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +23,9 @@ public class ScoreManager : MonoBehaviour
             Instance = this;
         }
     }
+
+
+
 
     public void ChangeScore(int coinValue)
     {

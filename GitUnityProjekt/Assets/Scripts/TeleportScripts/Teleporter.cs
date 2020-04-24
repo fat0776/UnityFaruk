@@ -15,7 +15,18 @@ public class Teleporter : MonoBehaviour {
             SceneManager.LoadScene(levelName);
         }
     }
+
+
+
+
     
+
+    //public ScoreManager MyScoreManager;
+
+    private static int x;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +36,7 @@ public class Teleporter : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(ScoreManager.score);
         
     }
 }
