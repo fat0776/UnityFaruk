@@ -29,12 +29,25 @@ public class PlayerScript : MonoBehaviour
 
     }
 
+
+    public AudioSource audioSource;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         
         if (other.gameObject.CompareTag("Screw"))
         {
             Destroy(other.gameObject);
+
+
+
+            audioSource.Play();
+
+
+
+
+
+
         }
     }
 }
