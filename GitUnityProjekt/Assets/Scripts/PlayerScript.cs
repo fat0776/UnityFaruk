@@ -29,7 +29,7 @@ public class PlayerScript : MonoBehaviour
 
     }
 
-
+    //für Schraubengeräusch
     public AudioSource audioSource;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -40,7 +40,7 @@ public class PlayerScript : MonoBehaviour
             Destroy(other.gameObject);
 
 
-
+            //schraubengeräusch
             audioSource.Play();
 
 
