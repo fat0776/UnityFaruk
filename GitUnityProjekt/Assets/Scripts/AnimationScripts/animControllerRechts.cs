@@ -16,7 +16,7 @@ public class animControllerRechts : MonoBehaviour
     {
         if ((Input.GetAxis("Horizontal") > 0))
         {
-            animrechts.Play("NachRechtsGehen");
+            animrechts.Play("NachRechtsGehen2");
         }
         if ((Input.GetAxis("Horizontal") == 0))
         {
