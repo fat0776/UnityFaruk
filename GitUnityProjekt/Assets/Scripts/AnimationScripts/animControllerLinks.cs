@@ -16,7 +16,7 @@ public class animControllerLinks : MonoBehaviour
     {
         if ((Input.GetAxis("Horizontal") < 0))
         {
-            animlinks.Play("GoLeft");
+            animlinks.Play("GoLeft2");
         }
         if ((Input.GetAxis("Horizontal") == 0))
         {
