@@ -227,7 +227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1681341453}
-  moveSpeed: 5
+  moveSpeed: 7
+  audioSource: {fileID: 0}
 --- !u!114 &820694025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,7 +366,7 @@ PrefabInstance:
     - target: {fileID: 174242948576887419, guid: da0a4553bd45afa4db61f00ede904be1,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 174242948576887419, guid: da0a4553bd45afa4db61f00ede904be1,
         type: 3}
@@ -633,7 +634,7 @@ PrefabInstance:
     - target: {fileID: 5704019116019317082, guid: f9bf856f5d0150e4dbcd130934fcaf51,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5704019116019317082, guid: f9bf856f5d0150e4dbcd130934fcaf51,
         type: 3}
