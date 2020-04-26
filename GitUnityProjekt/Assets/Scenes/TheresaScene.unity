@@ -382,10 +382,10 @@ MonoBehaviour:
   player: {fileID: 820694019}
   timeOffset: 3
   posOffset: {x: 0, y: 0}
-  leftLimit: -24.27
-  rightLimit: 24.3
-  bottomLimit: -16.08
-  topLimit: 16.01
+  leftLimit: -14.9
+  rightLimit: 14.7
+  bottomLimit: -10.9
+  topLimit: 10.7
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
