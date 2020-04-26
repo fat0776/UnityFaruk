@@ -8,14 +8,14 @@ public class Teleporter : MonoBehaviour {
     public string levelName;
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (MyScoreManager.score ==2)
-        {
+        //if (MyScoreManager.score ==2)
+        //{
             if (other.CompareTag("Player"))
             { 
                 StartCoroutine(ExampleCoroutine()); //Untere Funktion wird aufgerufen -> wartet 0.5s damit Sound abgespielt wird und danach neue Szene laden
                 audioSource.Play();
             }
-        }
+        //}
     }
 
     IEnumerator ExampleCoroutine()
