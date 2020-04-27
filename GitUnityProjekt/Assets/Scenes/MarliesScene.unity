@@ -112,6 +112,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &56274235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4399204229365155757, guid: 747040318b0f5f645a917f0d68ae3597,
+    type: 3}
+  m_PrefabInstance: {fileID: 1728141488}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &126095401
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,7 +301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd3f426323bab7249ad4a05f21a53eb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 56274235}
   timeOffset: 3
   posOffset: {x: 0, y: 0}
   leftLimit: -18.01
@@ -917,7 +923,7 @@ PrefabInstance:
     - target: {fileID: 1681341454, guid: 747040318b0f5f645a917f0d68ae3597, type: 3}
       propertyPath: audioSource
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1852123538}
     - target: {fileID: 238104942776217215, guid: 747040318b0f5f645a917f0d68ae3597,
         type: 3}
       propertyPath: m_Mesh
@@ -1082,6 +1088,12 @@ PrefabInstance:
 --- !u!82 &1733477018 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 8734425972692200349, guid: bb470a7e6a08830409344a4ecdc71f50,
+    type: 3}
+  m_PrefabInstance: {fileID: 1733477017}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1852123538 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4651691055694068594, guid: bb470a7e6a08830409344a4ecdc71f50,
     type: 3}
   m_PrefabInstance: {fileID: 1733477017}
   m_PrefabAsset: {fileID: 0}
