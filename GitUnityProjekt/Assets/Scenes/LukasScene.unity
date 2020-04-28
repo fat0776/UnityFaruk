@@ -998,8 +998,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.4, y: -80.8}
-  m_SizeDelta: {x: 882.5, y: 112.2}
+  m_AnchoredPosition: {x: 0.4, y: -51.9}
+  m_SizeDelta: {x: 882.5, y: 103.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &753191632
 MonoBehaviour:
@@ -1085,7 +1085,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 9.440542, y: 9.721588, z: 12.980669, w: 2.127817}
+  m_margin: {x: 9.440542, y: 9.721541, z: 12.980669, w: 12.058853}
   m_textInfo:
     textComponent: {fileID: 753191632}
     characterCount: 0
@@ -1729,6 +1729,7 @@ MonoBehaviour:
     finden um in das n\xE4chste Level zu gelangen. "
   - Lass uns keine Zeit verlieren und gleich loslegen!
   typingSpeed: 0.02
+  player: {fileID: 1633851826}
   continueButton: {fileID: 319294215}
 --- !u!1001 &2042986016
 PrefabInstance:

@@ -10,30 +10,31 @@ public class Dialogue : MonoBehaviour
     private int index;
     public float typingSpeed;
 
+    public GameObject player;
+
     public GameObject continueButton;
 
     void Start(){
-        StartCoroutine(Type());       
+        StartCoroutine(Type());
+        player.GetComponent<PlayerScript>().enabled = true;
     }
 
 
     void Update(){
-
         if (textDisplay.text == sentences[index]){
             continueButton.SetActive(true);
         }
     }
-
     IEnumerator Type(){
 
         foreach(char letter in sentences[index].ToCharArray()){
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
+            player.GetComponent<PlayerScript>().enabled = false;
         }
     }
 
 public void NextSentence(){
-
         continueButton.SetActive(false);
 
         if(index < sentences.Length - 1){
@@ -44,5 +45,6 @@ public void NextSentence(){
             textDisplay.text = "";
             continueButton.SetActive(false);
         }
+        player.GetComponent<PlayerScript>().enabled = true;
     }
 }
