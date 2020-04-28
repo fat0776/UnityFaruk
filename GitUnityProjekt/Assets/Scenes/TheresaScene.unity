@@ -370,10 +370,10 @@ MonoBehaviour:
   player: {fileID: 820694019}
   timeOffset: 3
   posOffset: {x: 0, y: 0}
-  leftLimit: -14.9
-  rightLimit: 14.7
-  bottomLimit: -10.9
-  topLimit: 10.7
+  leftLimit: -15.7
+  rightLimit: 15.7
+  bottomLimit: -10.6
+  topLimit: 10.9
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1742,7 +1742,10 @@ EdgeCollider2D:
   - {x: 37.008774, y: 3.7341375}
   - {x: 44.308624, y: 3.444828}
   - {x: 44.983463, y: 4.5184116}
-  - {x: 45.980415, y: 4.4652596}
+  - {x: 46.00781, y: 4.393965}
+  - {x: 46.064396, y: -26.399189}
+  - {x: -2.5684013, y: -26.59855}
+  - {x: -2.4299355, y: 0.6236305}
 --- !u!4 &1856931770
 Transform:
   m_ObjectHideFlags: 0
