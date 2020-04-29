@@ -48,9 +48,9 @@ TagManager:
   - name: Player
     uniqueID: 3354527651
     locked: 0
-  - name: Foreground
-    uniqueID: 3116454163
-    locked: 0
   - name: Screw
     uniqueID: 3432179219
+    locked: 0
+  - name: Foreground
+    uniqueID: 3116454163
     locked: 0

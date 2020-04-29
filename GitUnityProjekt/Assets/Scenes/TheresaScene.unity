@@ -1415,6 +1415,11 @@ PrefabInstance:
       propertyPath: MyScoreManager
       value: 
       objectReference: {fileID: 1125283914}
+    - target: {fileID: 5693653266585210958, guid: b51c5de259d64ca418bd374775cb4d28,
+        type: 3}
+      propertyPath: levelName
+      value: MarliesScene
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b51c5de259d64ca418bd374775cb4d28, type: 3}
 --- !u!4 &1765815949 stripped

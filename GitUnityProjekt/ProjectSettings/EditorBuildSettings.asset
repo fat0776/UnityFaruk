@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: 
     guid: a67866ef82bcf6f47b2e733bdfd6e287
   - enabled: 1
-    path: Assets/Scenes/SceneVorlage.unity
+    path: Assets/Scenes/EinfuehrungsStory.unity
     guid: 9e6360d92123b954ca6ce71410d30da5
   - enabled: 1
     path: Assets/Scenes/FarukScene.unity
