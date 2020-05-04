@@ -16,7 +16,7 @@ public class AnimControllerHinten : MonoBehaviour
     {
         if ((Input.GetAxis("Vertical") > 0))
         {
-            animhinten.Play("GoUp");
+            animhinten.Play("GoUp2");
         }
         if ((Input.GetAxis("Vertical") == 0))
         {

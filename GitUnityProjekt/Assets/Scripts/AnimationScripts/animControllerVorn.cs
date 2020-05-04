@@ -16,7 +16,7 @@ public class animControllerVorn : MonoBehaviour
     {
         if ((Input.GetAxis("Vertical") < 0))
         {
-            animvorn.Play("GoDown");
+            animvorn.Play("GoDown2");
         }
         if ((Input.GetAxis("Vertical") == 0))
         {
