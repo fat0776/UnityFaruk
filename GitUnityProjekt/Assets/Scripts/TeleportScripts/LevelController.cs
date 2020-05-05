@@ -10,7 +10,7 @@ public class LevelController : MonoBehaviour {
     public string levelName;
     void OnTriggerEnter2D(Collider2D other)
     {
-        if ((DateTime.Now.Ticks - start) < sec*90000000) return;
+        if ((DateTime.Now.Ticks - start) < sec*50000000) return;
         UnityEngine.Debug.Log(start);
 
         if (other.CompareTag("Player"))

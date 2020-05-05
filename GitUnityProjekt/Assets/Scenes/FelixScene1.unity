@@ -815,8 +815,8 @@ MonoBehaviour:
   player: {fileID: 1834161352}
   timeOffset: 3
   posOffset: {x: 0, y: 0}
-  leftLimit: -5.9
-  rightLimit: 5.22
+  leftLimit: -4.99
+  rightLimit: 3.84
   bottomLimit: -0.62
   topLimit: 8.56
 --- !u!1001 &1156172744
@@ -1028,7 +1028,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1178513133
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

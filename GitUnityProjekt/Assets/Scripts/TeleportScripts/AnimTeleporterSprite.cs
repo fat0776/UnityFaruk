@@ -19,11 +19,11 @@ public class AnimTeleporterSprite : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (MscoreManager.score == 5)
+        if ((MscoreManager.screwsFound >= MscoreManager.screwsInLevel) && 
+            (ScoreManager.Instance.score >= MscoreManager.minScore))
         {
             aktiv.gameObject.SetActive(true);
             inaktiv.gameObject.SetActive(false);
-
         }
 
 
