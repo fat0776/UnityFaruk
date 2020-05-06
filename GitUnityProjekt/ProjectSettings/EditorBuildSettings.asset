@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TheresaScene.unity
     guid: 997ca5a9250a3064aaf35fb5e33e3fd2
+  - enabled: 1
+    path: Assets/Scenes/AbschlussScene.unity
+    guid: f8fb83b4aea256f4cb7b6586fee2793f
   m_configObjects: {}
