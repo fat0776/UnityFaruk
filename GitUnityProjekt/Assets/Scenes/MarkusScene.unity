@@ -1993,22 +1993,22 @@ PrefabInstance:
     - target: {fileID: 4723960015595853057, guid: 8c94ae04b721e904d9b99bcd42ebdfc1,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -77
+      value: -319
       objectReference: {fileID: 0}
     - target: {fileID: 4723960015595853057, guid: 8c94ae04b721e904d9b99bcd42ebdfc1,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 150
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 4723960016981164035, guid: 8c94ae04b721e904d9b99bcd42ebdfc1,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -297
+      value: -531
       objectReference: {fileID: 0}
     - target: {fileID: 4723960016981164035, guid: 8c94ae04b721e904d9b99bcd42ebdfc1,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 144
+      value: 300
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c94ae04b721e904d9b99bcd42ebdfc1, type: 3}
