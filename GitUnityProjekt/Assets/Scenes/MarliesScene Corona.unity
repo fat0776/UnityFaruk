@@ -119,6 +119,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5693653266455590090, guid: b51c5de259d64ca418bd374775cb4d28,
+        type: 3}
+      propertyPath: MscoreManager
+      value: 
+      objectReference: {fileID: 772185557}
     - target: {fileID: 5693653266455590091, guid: b51c5de259d64ca418bd374775cb4d28,
         type: 3}
       propertyPath: m_LocalPosition.x
