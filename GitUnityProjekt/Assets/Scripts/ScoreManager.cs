@@ -19,19 +19,19 @@ public class ScoreManager : MonoBehaviour
         
 
         //altes deleteScrew
-        public void deleteScrew(ScrewScript screw)
-        {
-            if (DeletedScrews.ContainsKey(screw.UId)) return;
-            DeletedScrews.Add(screw.UId, new ScrewState());
-        }
+        //public void deleteScrew(ScrewScript screw)
+        //{
+            //if (DeletedScrews.ContainsKey(screw.UId)) return;
+            //DeletedScrews.Add(screw.UId, new ScrewState());
+        //}
 
         //Änderung 1:
-        //public bool deleteScrew(ScrewScript screw)
-        //{
-            //if (DeletedScrews.ContainsKey(screw.UId)) return false;
-            //DeletedScrews.Add(screw.UId, new ScrewState());
-            //return true;
-        //}
+        public bool deleteScrew(ScrewScript screw)
+        {
+            if (DeletedScrews.ContainsKey(screw.UId)) return false;
+            DeletedScrews.Add(screw.UId, new ScrewState());
+            return true;
+        }
 
 
     public bool isDeletedScrew(string uId)
@@ -80,25 +80,25 @@ public class ScoreManager : MonoBehaviour
         updateText();
     }
     //alter Changescore
-    public void ChangeScore(int coinValue, ScrewScript screw)
-    {
-        Instance.score += coinValue;
-        score += coinValue;
-        Instance.deleteScrew(screw);
-        screwsFound = screwsInLevel - FindObjectsOfType(typeof(ScrewScript)).Length + 1;
-        updateText();
-    }
-
-
-    //Änderung 2:
     //public void ChangeScore(int coinValue, ScrewScript screw)
     //{
-        //if (!Instance.deleteScrew(screw)) return;
         //Instance.score += coinValue;
-        //score += coinValue;
+       // score += coinValue;
+        //Instance.deleteScrew(screw);
         //screwsFound = screwsInLevel - FindObjectsOfType(typeof(ScrewScript)).Length + 1;
         //updateText();
     //}
+
+
+    //Änderung 2:
+    public void ChangeScore(int coinValue, ScrewScript screw)
+    {
+        if (!Instance.deleteScrew(screw)) return;
+        Instance.score += coinValue;
+        score += coinValue;
+        screwsFound = screwsInLevel - FindObjectsOfType(typeof(ScrewScript)).Length + 1;
+        updateText();
+    }
 
 
 
