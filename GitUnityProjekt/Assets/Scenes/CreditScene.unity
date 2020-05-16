@@ -472,7 +472,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Lukas D\xF6bbelin\n\n\nHier steht was\n\n\nHier steht nichts\n\n\nTest\n\n"
+  m_Text: "Lukas D\xF6bbelin\nMarlies Dauderer\nFaruk Topcu\nFelix Smola\nTheressa
+    Bauer\nMarkus Steurer\n\n"
 --- !u!222 &1384086302
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -619,7 +620,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Projektteilnehmer\n\n\nCredits\n\n\nDanke f\xFCr\xB4s Spielen! :)\n\n"
+  m_Text: "Projektteilnehmer\n\n\n\n\n\nCredits\n\n\nDanke f\xFCr\xB4s Spielen! :)\n\n"
 --- !u!222 &1758842057
 CanvasRenderer:
   m_ObjectHideFlags: 0
