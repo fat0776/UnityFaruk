@@ -438,8 +438,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 259.05005, y: -58.00003}
-  m_SizeDelta: {x: 518.1, y: 649.2}
+  m_AnchoredPosition: {x: 259.05005, y: -85.99997}
+  m_SizeDelta: {x: 518.1, y: 705.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1384086301
 MonoBehaviour:
@@ -473,7 +473,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Lukas D\xF6bbelin\nMarlies Dauderer\nFaruk Topcu\nFelix Smola\nTheressa
-    Bauer\nMarkus Steurer\n\n"
+    Bauer\nMarkus Steurer\n\n\nClint Bellanger\nhttps://creativecommons.org/licenses/by/3.0/"
 --- !u!222 &1384086302
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -586,8 +586,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -229.2, y: -58}
-  m_SizeDelta: {x: 518.1, y: 649.2}
+  m_AnchoredPosition: {x: -229.2, y: -113}
+  m_SizeDelta: {x: 518.1, y: 759.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1758842056
 MonoBehaviour:
@@ -620,7 +620,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Projektteilnehmer\n\n\n\n\n\nCredits\n\n\nDanke f\xFCr\xB4s Spielen! :)\n\n"
+  m_Text: "Projektteilnehmer\n\n\n\n\n\n\n\nCredits\n\n\n\nDanke f\xFCr\xB4s Spielen!
+    :)\n\n"
 --- !u!222 &1758842057
 CanvasRenderer:
   m_ObjectHideFlags: 0
