@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/StartMenu.unity
     guid: eede8e2b4ddbb48a19026f610c0e9311
   - enabled: 1
+    path: Assets/Scenes/EinfuehrungsScene.unity
+    guid: a9b8f27b5069cce418e0a1f095e567e1
+  - enabled: 1
     path: Assets/Scenes/FelixScene.unity
     guid: 38dc84d6d634b7d4988045363fcc4002
   - enabled: 1
