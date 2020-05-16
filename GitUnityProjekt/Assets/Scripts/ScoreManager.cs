@@ -16,13 +16,25 @@ public class ScoreManager : MonoBehaviour
         private Dictionary<string, ScrewState> DeletedScrews = new Dictionary<string, ScrewState>();
         public  Dictionary<int, int> screwsInLevel = new Dictionary<int, int>();
         public int score;
+        
 
+        //altes deleteScrew
         public void deleteScrew(ScrewScript screw)
         {
             if (DeletedScrews.ContainsKey(screw.UId)) return;
             DeletedScrews.Add(screw.UId, new ScrewState());
         }
-        public bool isDeletedScrew(string uId)
+
+        //Änderung 1:
+        //public bool deleteScrew(ScrewScript screw)
+        //{
+            //if (DeletedScrews.ContainsKey(screw.UId)) return false;
+            //DeletedScrews.Add(screw.UId, new ScrewState());
+            //return true;
+        //}
+
+
+    public bool isDeletedScrew(string uId)
         {
             return DeletedScrews.ContainsKey(uId);
         }
@@ -67,7 +79,7 @@ public class ScoreManager : MonoBehaviour
         screwsFound = screwsInLevel - screwsInLevelLeft;
         updateText();
     }
-
+    //alter Changescore
     public void ChangeScore(int coinValue, ScrewScript screw)
     {
         Instance.score += coinValue;
@@ -76,5 +88,18 @@ public class ScoreManager : MonoBehaviour
         screwsFound = screwsInLevel - FindObjectsOfType(typeof(ScrewScript)).Length + 1;
         updateText();
     }
+
+
+    //Änderung 2:
+    //public void ChangeScore(int coinValue, ScrewScript screw)
+    //{
+        //if (!Instance.deleteScrew(screw)) return;
+        //Instance.score += coinValue;
+        //score += coinValue;
+        //screwsFound = screwsInLevel - FindObjectsOfType(typeof(ScrewScript)).Length + 1;
+        //updateText();
+    //}
+
+
 
 }
