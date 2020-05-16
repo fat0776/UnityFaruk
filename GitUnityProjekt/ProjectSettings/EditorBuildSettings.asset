@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: eede8e2b4ddbb48a19026f610c0e9311
+  - enabled: 1
     path: Assets/Scenes/FelixScene.unity
     guid: 38dc84d6d634b7d4988045363fcc4002
   - enabled: 1
@@ -44,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AbschlussScene.unity
     guid: f8fb83b4aea256f4cb7b6586fee2793f
+  - enabled: 1
+    path: Assets/Scenes/CreditScene.unity
+    guid: 9e71d1260d2e54dd4a0bb167a475c63a
   m_configObjects: {}
