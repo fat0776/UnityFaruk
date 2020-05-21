@@ -653,7 +653,6 @@ GameObject:
   - component: {fileID: 1159614994}
   - component: {fileID: 1159614995}
   - component: {fileID: 1159614998}
-  - component: {fileID: 1159614997}
   - component: {fileID: 1159614996}
   - component: {fileID: 1159615000}
   - component: {fileID: 1159614999}
@@ -727,24 +726,6 @@ EdgeCollider2D:
   - {x: 11.76, y: 7.64}
   - {x: 11.85, y: 5.07}
   - {x: 8.6, y: 5.07}
---- !u!68 &1159614997
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1159614993}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.5, y: 0}
-  - {x: 0.5, y: 0}
 --- !u!68 &1159614998
 EdgeCollider2D:
   m_ObjectHideFlags: 0
