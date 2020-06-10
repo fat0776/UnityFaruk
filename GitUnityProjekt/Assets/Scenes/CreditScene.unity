@@ -516,7 +516,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Lukas D\xF6bbelin\nMarlies Dauderer\nFaruk Topcu\nFelix Smola\nTheressa
-    Bauer\nMarkus Steurer\n\n\nClint Bellanger\nhttps://creativecommons.org/licenses/by/3.0/"
+    Bauer\nMarkus Steurer\nJ\xF6rn Schlingensiepen\nClint Bellanger\nhttps://creativecommons.org/licenses/by/3.0/"
 --- !u!222 &1384086302
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -663,8 +663,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Projektteilnehmer\n\n\n\n\n\n\n\nCredits\n\n\n\nDanke f\xFCr\xB4s Spielen!
-    :)\n\n"
+  m_Text: "Projektteilnehmer\n\n\n\n\n\nBetreuer\nCredits\n\n\n\nDanke f\xFCr\xB4s
+    Spielen! :)\n\n"
 --- !u!222 &1758842057
 CanvasRenderer:
   m_ObjectHideFlags: 0
